@@ -1,0 +1,196 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Gallery</title>
+</head>
+<body>
+    <!-- main cyan div -->
+    <div class="flex justify-center items-center bg-cyan-50 min-h-screen">
+        <!-- Gallery white Card -->
+        <div class="bg-white space-y-10 shadow-2xl rounded-3xl p-5 md:p-20 m-6">
+            <!-- Navigation -->
+            <div class="flex flex-col items-center justify-center space-y-3 md:flex-row md:space-y-0 md:space-x-8 md:mb-24 md:justify-end"> 
+                <div class="group">
+                    <a href="#">Vector</a>
+                    <div
+                      class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+                    ></div>
+                </div>
+                <div class="group">
+                    <a href="#">Illustrations</a>
+                    <div
+                      class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+                    ></div>
+                </div>
+                <div class="group">
+                    <a href="#">Images</a>
+                    <div
+                      class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+                    ></div>
+                </div>
+                <div class="group">
+                    <a href="">Icons</a>
+                    <div 
+                      class="border-b-2 opacity-0 mx-2 mt-2 duration-500 border-black group-hover:opacity-100"
+                    ></div>
+                </div>
+                
+            </div>
+            <!-- search -->
+            <div class="flex flex-col justify-between md:flex-row space-y-5 md:space-y-0" >
+                <div class="flex justify-between border-b">
+                    <input 
+                       class="ml-6 border-none md:w-80 placeholder:font-thin focus:outline-none"
+                       type="text" 
+                       placeholder="Search"> 
+                    </input>
+                    <button class="justify-center">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-8 text-gray-300 duration-200 hover:scale-110"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            >
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <circle cx="10" cy="10" r="7" />
+                            <line x1="21" y1="21" x2="15" y2="15" />
+                        </svg>
+                    </button>
+                </div>
+                <button class="py-3 px-14 text-md font-normal text-white bg-black border border-black rounded-md shadow-2xl duration-200 hover:bg-white hover:text-black md:ml-2">Upload</button>
+            </div>
+            
+            <!-- Image gallery info appears on hover-->
+            <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
+                <div class="relative group">
+                    <img src="/Gallery/images/image1.jpg" alt="">
+                    <div class="absolute right-0 left-0 bottom-0 p-3 px-4 bg-sky-600 text-white opacity-0 group-hover:opacity-100 duration-500 ease-in group-hover:bg-opacity-40">
+                        <div class="flex justify-between">
+                            <div class="">
+                                <h4>Model Shoots</h4>
+                                <span class="text-xs">457 likes - </span>
+                                <span class="text-xs">3 shares</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="images/bookmark.svg" alt="save">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <img src="/Gallery/images/image2.jpg" alt="">
+                    <div class="absolute right-0 left-0 bottom-0 p-3 px-4 bg-black text-white opacity-0 group-hover:opacity-100 duration-500 ease-in group-hover:bg-opacity-40">
+                        <div class="flex justify-between">
+                            <div class="">
+                                <h4>Interior Shoots</h4>
+                                <span class="text-xs">47 likes - </span>
+                                <span class="text-xs">8 shares</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="images/bookmark.svg" alt="save">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <img src="/Gallery/images/image3.jpg" alt="">
+                    <div class="absolute right-0 left-0 bottom-0 p-3 px-4 bg-red-600 text-white opacity-0 group-hover:opacity-100 duration-500 ease-in group-hover:bg-opacity-40">
+                        <div class="flex justify-between">
+                            <div class="">
+                                <h4>Exterior Shoots</h4>
+                                <span class="text-xs">357 likes - </span>
+                                <span class="text-xs">4 shares</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="images/bookmark.svg" alt="save">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <img class="grayscale" src="/Gallery/images/image5.jpg" alt="">
+                    <div class="absolute right-0 left-0 bottom-0 p-3 px-4 bg-black text-white opacity-0 group-hover:opacity-100 duration-500 ease-in group-hover:bg-opacity-40">
+                        <div class="flex justify-between">
+                            <div class="">
+                                <h4>Urban Gray Scale</h4>
+                                <span class="text-xs">457 likes - </span>
+                                <span class="text-xs">3 shares</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="images/bookmark.svg" alt="save">
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="relative group">
+                    <img src="/Gallery/images/image4.jpg" alt="">
+                    <div class="absolute right-0 left-0 bottom-0 p-3 px-4 bg-orange-500	 text-white opacity-0 group-hover:opacity-100 duration-500 ease-in group-hover:bg-opacity-40">
+                        <div class="flex justify-between">
+                            <div class="">
+                                <h4>Abstract Arts</h4>
+                                <span class="text-xs">1012 likes - </span>
+                                <span class="text-xs">18 shares</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="images/bookmark.svg" alt="save">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <img src="/Gallery/images/image5.jpg" alt="">
+                    <div class="absolute right-0 left-0 bottom-0 p-3 px-4 bg-emerald-500 text-white opacity-0 group-hover:opacity-100 duration-500 ease-in group-hover:bg-opacity-40">
+                        <div class="flex justify-between">
+                            <div class="">
+                                <h4>Urban Shoots</h4>
+                                <span class="text-xs">4507 likes - </span>
+                                <span class="text-xs">31 shares</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="images/bookmark.svg" alt="save">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <img src="/Gallery/images/image6.jpg" alt="">
+                    <div class="absolute right-0 left-0 bottom-0 p-3 px-4 bg-black text-white opacity-0 group-hover:opacity-100 duration-500 ease-in group-hover:bg-opacity-40">
+                        <div class="flex justify-between">
+                            <div class="">
+                                <h4>Modern Architecture</h4>
+                                <span class="text-xs">457 likes - </span>
+                                <span class="text-xs">3 shares</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="images/bookmark.svg" alt="save">
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="relative group">
+                    <img class="grayscale" src="/Gallery/images/image1.jpg" alt="">
+                    <div class="absolute right-0 left-0 bottom-0 p-3 px-4 bg-black text-white opacity-0 group-hover:opacity-100 duration-500 ease-in group-hover:bg-opacity-40">
+                        <div class="flex justify-between">
+                            <div class="">
+                                <h4>Models Gray Scale</h4>
+                                <span class="text-xs">457 likes - </span>
+                                <span class="text-xs">3 shares</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="images/bookmark.svg" alt="save">
+                            </div>
+                        </div>
+                    </div>
+                </div>                                                        
+            </div>
+        </div>
+    </div>
+</body>
+</html>
