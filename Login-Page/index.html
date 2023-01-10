@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="justify-center items-center min-h-screen bg-rose-50 p-10">
+        <div class="md:flex md:ml-20 md:mr-20 lg:ml-40 lg:mr-40">
+            <div class="relative bg-white p-20 flex flex-col space-y-5 rounded-xl md:rounded-r-none">
+                <h1 class="text-lg font-medium">Log In</h1>
+                <p class="text-sm">Log in to your account to upload or download pictures, videos or music.</p>
+                <input type="text" placeholder="enter your email address" class="p-5 border border-1"/>
+                <div class="flex flex-col justify-between items-center md:flex-row space-y-4">
+                    <a href="" class="text-sky-500">Forgot password?</a>
+                    <button class="flex justify-between text-white bg-sky-700 py-4 px-8 rounded-lg w-full md:w-auto hover:shadow-lg hover:-translate-y-1 duration-300 hover:bg-sky-600">
+                        <span>Next </span>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-7"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="#ffffff"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <line x1="13" y1="18" x2="19" y2="12" />
+                            <line x1="13" y1="6" x2="19" y2="12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="border border-b-1"></div>
+                <div class="justify-center"><p class="text-gray-500 text-center text-sm font-thin">Or log in with</p></div>
+                <div class="flex flex-col items-center justify-stretch space-y-3 md:flex-row md:space-y-0 md:space-x-3">
+                    <button class="py-4 px-8 rounded-lg border flex justify-center items-center grow w-full font-thin shadow-sm hover:-translate-y-1 duration-300 hover:shadow-lg"><img class="w-9 mr-3" src="images/facebook.png" alt=""><span>Facebook</span></button>
+                    <button class="py-4 px-8 rounded-lg border flex justify-center items-center grow w-full font-thin shadow-sm hover:-translate-y-1 duration-300 hover:shadow-lg"><img class="w-9 mr-3" src="images/google.png" alt=""><span>Google</span></button>
+                </div>
+                <span class="sm:block md:hidden lg:hidden xlg:hidden absolute bg-gray-100 opacity-80 font-medium rounded-full p-2 right-4 top-0 cursor-pointer hover:-translate-y-1 hover:opacity-90 duration-300">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-6 h-6 text-black group-hover:text-gray-600"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                </span>
+            </div>
+            <div class="grow bg-[url('images/water.jpg')] w-[430px] hidden md:block relative rounded-r-xl">
+                <span class="absolute bg-white opacity-80 font-medium rounded-full p-2 right-3 top-3 cursor-pointer hover:-translate-y-1 hover:opacity-90 duration-300">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-6 h-6 text-black group-hover:text-gray-600"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
